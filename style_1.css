@@ -1,0 +1,85 @@
+body {
+	font-family: verdana;
+}
+
+form {
+	margin: 100px auto;
+	width: 50%;
+	background-color: #F0F0F0;
+	border:1px solid #ccc;
+}
+
+.error {
+	text-align: center;
+	color: #ff0000;
+}
+
+h2 {
+	margin-bottom: 0; 
+	text-align: center; 
+	color: #4CAF50;
+}
+
+.container{
+	padding: 30px;
+}
+label {
+	font-weight: 700;
+}
+
+input[type=text], input[type=password] {
+	width: 98%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+.signupbtn{
+	text-align: center;
+	float: left;
+	background-color: #4CAF50;
+	color: #ffffff;
+	padding: 15px 0;
+	margin: 10px 10px;
+	cursor: pointer;
+	width: 46%;
+	
+}
+.loginbtn{
+	text-align: center;
+	float: left;
+	background-color: blue;
+	color: #ffffff;
+	padding: 15px 0;
+	margin: 10px 10px;
+	cursor: pointer;
+	width: 40%;
+}
+
+.cancelbtn{
+	text-align: center;
+	float: right;
+	background-color: #f44336;
+	color: #ffffff;
+	padding: 15px 0;
+	margin: 10px 10px;
+	cursor: pointer;
+	width: 45%;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+@media screen and (max-width: 600px) {
+	.cancelbtn, .signupbtn, .loginbtn {
+		width: 100%;
+	}
+}
